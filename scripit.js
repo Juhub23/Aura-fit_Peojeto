@@ -8,7 +8,7 @@ function abreFechaMenu(){
     //Se o menu está fechado
     if(window.getComputedStyle(menu).right == "-210px"){
         //Abrir o menu
-        menu.style.right = "0"
+        menu.style.right = "80px"
 
         //Mostrar icone X
         iconeX.style.display = "inline"

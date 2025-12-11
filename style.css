@@ -66,12 +66,380 @@ header img {
     color: var(--branco);
 }
 
+.menu a :hover {
+    color: var(--titulos);
+    text-decoration: underline;
+    transition: .5s;
+
+}
+
 
 /* -------- Menu Hamburguer ------- */
 #icone-barras,
 #icone-x,
 #menu_botao {
     display: none;
+}
+
+
+
+
+/* -------bannerrr------- */
+
+.banner {
+    background-image: url(./img/BANNER.png);
+    height: 110vh;
+    background-repeat: no-repeat;
+    background-position: 0 -10px;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+/* ----------sobre nos-------- */
+
+#sobre-nos {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 100px;
+    margin-top: 120px;
+}
+
+#sobre-nos h2 {
+    font-family: "Cocogoose-semiligth";
+    font-size: 42px;
+    color: var(--branco);
+    /* margin-left: 200px; */
+    text-align: center;
+}
+
+#sobre-nos span {
+    font-family: "Cocogoose-semiligth";
+    font-size: 42px;
+    color: var(--titulos);
+    /* text-align: center; */
+}
+
+#sobre-nos img {
+    max-width: 900px;
+    box-shadow: 10 10 30px rgba(112, 27, 204, 0.7)
+}
+
+#sobre-nos p {
+    font-family: "Cocogoose-ligth";
+    color: var(--branco);
+    text-align: justify;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+#sobre-nos .texto-roxo {
+    font-family: "Cocogoose-ligth";
+    font-size: 27px;
+    color: var(--escritas);
+}
+
+.titulo1 {
+    display: flex;
+    margin-left: 200px;
+    gap: 10px;
+    margin-bottom: 90px;
+}
+
+/* ---------treinar aurafit---------- */
+#pq-treinar {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    align-items: center;
+    gap: 100px;
+    margin-top: 120px;
+}
+
+#pq-treinar h2 {
+    font-family: "Cocogoose-semiligth";
+    font-size: 42px;
+    color: var(--branco);
+    /* margin-left: 200px; */
+    text-align: center;
+}
+
+#pq-treinar span {
+    font-family: "Cocogoose-semiligth";
+    font-size: 42px;
+    color: var(--titulos);
+    text-align: center;
+}
+
+#pq-treinar img {
+    max-width: 800px;
+}
+
+#pq-treinar p {
+    font-family: "Cocogoose-ligth";
+    font-size: 25px;
+    color: var(--branco);
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.titulo2 {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 110px;
+}
+
+#pq-treinar .texto-roxo {
+    font-family: "Cocogoose-ligth";
+    font-size: 27px;
+    color: var(--escritas);
+}
+
+/* -----------localizacao----------- */
+
+#localizacao-titulo {
+    font-family: "Cocogoose-semiligth";
+    font-size: 42px;
+    color: var(--branco);
+    margin-top: 120px;
+    text-align: center;
+}
+
+#localizacao {
+    display: flex;
+    gap: 121px;
+}
+
+/* --------localizacao 1-------------- */
+.quadrado {
+    margin-top: 120px;
+    height: 426px;
+    width: 259px;
+    background-color: var(--branco);
+    border-radius: 7px;
+}
+
+.fileira1 {
+    display: flex;
+    gap: 130px;
+}
+
+.quadrado:hover {
+    transform: scale(1.2);
+    transition: .5s;
+}
+
+.quadrado img {
+    height: 259px;
+    width: 259px;
+    padding: 10px;
+}
+
+.quadrado h2 {
+    font-family: "Cocogoose-ligth";
+    font-size: 24px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.quadrado p {
+    font-family: "Cocogoose-ligth";
+    font-size: 13px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.quadrado h3 {
+    font-family: "Cocogoose-semiligth";
+    font-size: 15px;
+    color: #fff;
+    margin-top: 25px;
+    background-color: var(--fundo);
+    text-align: center;
+    height: 30px;
+    width: 7vw;
+    margin-left: 20%;
+    border-radius: 55px;
+    padding-top: 5px;
+}
+
+.quadrado h3:hover {
+    background-color: #460a85;
+}
+
+/* -------------banner2------------- */
+#banner-menor {
+    height: 40vh;
+    background-image: url(./img/Banner\ menor.png);
+    margin-top: 170px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* ------------suplementos-------------- */
+
+#suplementos-titulo {
+    font-family: "Cocogoose-semiligth";
+    font-size: 42px;
+    color: var(--branco);
+    margin-top: 100px;
+    text-align: center;
+}
+
+#suplementos {
+    display: flex;
+    gap: 110px;
+    margin-right: 300px;
+}
+
+
+/* ------------suplementos1-------------- */
+.suplemento {
+    margin-top: 120px;
+    height: 530px;
+    width: 328px;
+    background-color: var(--branco);
+    border-radius: 7px;
+    align-items: center;
+}
+
+.suplemento:hover {
+    transform: scale(1.2);
+    transition: .5s;
+}
+
+.suplemento img {
+    height: 448px;
+    width: 314px;
+    padding: 10px;
+}
+
+
+
+.suplemento h3 {
+    font-family: "Cocogoose-semiligth";
+    font-size: 18px;
+    color: #fff;
+    margin-top: 10px;
+    background-color: var(--fundo);
+    text-align: center;
+    height: 35px;
+    width: 8vw;
+    margin-left: 23%;
+    border-radius: 55px;
+    padding-top: 6px;
+}
+
+/* ---------comece a treinar--------- */
+
+#formulario1 {
+    width: 611px;
+    height: 642px;
+    margin-right: 435px;
+    position: relative;
+    bottom: 750px;
+    background-color: var(--branco);
+    border-radius: 10px;
+}
+
+#formulario {
+    margin-top: 250px;
+    display: flex;
+    gap: 350px;
+}
+
+.titulo-formulario h2 {
+    font-family: "Cocogoose-semiligth";
+    font-size: 48px;
+    color: var(--branco);
+}
+
+.titulo-formulario h3 {
+    font-family: "Cocogoose-semiligth";
+    font-size: 65px;
+    color: var(--titulos);
+    margin-left: 35px;
+}
+
+.campo {
+    font-family: "Cocogoose-semiligth";
+    font-size: 35px;
+    color: #000;
+    margin-top: 10px;
+    padding: 35px;
+    margin-left: 25px;
+}
+
+.campo input {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #000;
+    padding: 10px 0;
+    font-size: 30px;
+    outline: none;
+    color: #2b1e1e;
+    display: block;
+    width: 85%;
+}
+
+.botao-form {
+    font-family: "Cocogoose-semiligth";
+    font-size: 20px;
+    color: #fff;
+    margin-top: 25px;
+    background-color: var(--fundo);
+    text-align: center;
+    height: 40px;
+    width: 7vw;
+    margin-left: 37%;
+    border-radius: 55px;
+    padding-top: 6px;
+}
+
+/* _-----------footer--------- */
+.svg-aura {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-footer h2 {
+    font-family: "Cocogoose-ligth";
+    font-size: 36px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.icones-redes {
+    margin-top: 20px;
+    width: 100%;
+    gap: 30px;
+    height: 75px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.icone-contato {
+    margin-top: 20px;
+    width: 100%;
+    gap: 30px;
+    height: 75px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.direitos {
+    font-family: "Cocogoose-ligth";
+    font-size: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 /* ---------- Reponsividade ---------------- */
@@ -132,296 +500,97 @@ header img {
     .menu a {
         color: var(--branco);
     }
-}
 
-/* -------bannerrr------- */
+    .banner {
+        height: 480px;
+    }
 
-.banner {
-    background-image: url(./img/BANNER.png);
-    height: 110vh;
-    background-repeat: no-repeat;
-    background-position: 0 -10px;
-    background-size: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    #sobre-nos {
+        display: flex;
+        flex-direction: column;
+    }
 
-}
+    #pq-treinar {
+        display: flex;
+        flex-direction: column;
+    }
 
-/* ----------sobre nos-------- */
+    #localizacao {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
 
-#sobre-nos {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    gap: 100px;
-    margin-top: 120px;
-}
+    .quadrado h3 {
+        font-size: 15px;
+        background-color: var(--fundo);
+        height: 30px;
+        width: 17vw;
+        margin-left: 24%;
+    }
 
-#sobre-nos h2 {
-    font-family: "Cocogoose-semiligth";
-    font-size: 47px;
-    color: var(--branco);
-    /* margin-left: 200px; */
-    text-align: center;
-}
+    .fileira1 {
+        display: flex;
+        gap: 90px;
+    }
 
-#sobre-nos span {
-    font-family: "Cocogoose-semiligth";
-    font-size: 47px;
-    color: var(--titulos);
-    /* text-align: center; */
-}
+    #formulario1 {
+        position: unset;
+        margin-left: 80px;
+    }
 
-#sobre-nos img {
-    max-width: 900px;
-    box-shadow: 10 10 30px rgba(112, 27, 204, 0.7)
-}
+    #banner-menor {
+        margin-top: 150px
+    }
 
-#sobre-nos p {
-    font-family: "Cocogoose-ligth";
-    color: var(--branco);
-    text-align: justify;
-    margin-top: 30px;
-    font-size: 27px;
-}
+    #suplementos-titulo {
+        margin-top: 0px;
+    }
 
-.titulo1 {
-    display: flex;
-    margin-left: 200px;
-    gap: 10px;
-    margin-bottom: 120px;
-}
+    #suplementos {
+        display: flex;
+        flex-direction: column;
+        margin-left: 26%;
+        gap: 10px;
+    }
 
-/* ---------treinar aurafit---------- */
-#pq-treinar {
-    display: flex;
-    /* flex-direction: row-reverse; */
-    align-items: center;
-    gap: 100px;
-    margin-top: 120px;
-}
+    .suplemento h3 {
+        width: 17vw;
+        margin-left: 28%;
+    }
 
-#pq-treinar h2 {
-    font-family: "Cocogoose-semiligth";
-    font-size: 47px;
-    color: var(--branco);
-    /* margin-left: 200px; */
-    text-align: center;
-}
+    .foto-formulario {
+        display: none;
+    }
 
-#pq-treinar span {
-    font-family: "Cocogoose-semiligth";
-    font-size: 47px;
-    color: var(--titulos);
-    text-align: center;
-}
+    .botao-form {
+        width: 17vw;
+        margin-left: 36%;
+    }
 
-#pq-treinar img {
-    max-width: 800px;
-    /* border: 10px solid; */
-}
-
-#pq-treinar p {
-    font-family: "Cocogoose-ligth";
-    font-size: 27px;
-    color: var(--branco);
-    text-align: justify;
-    margin-top: 30px;
-}
-
-.titulo2 {
-    display: flex;
-    /* margin-left: 95px;  */
-    gap: 10px;
-    margin-bottom: 110px;
-}
+    .titulo-formulario {
+        margin-bottom: 30px;
+        margin-left: 80px;
+    }
 
 
-/* -----------localizacao----------- */
+    .svg-aura {
+        margin-top: 100px
+    }
 
-#localizacao-titulo {
-    font-family: "Cocogoose-semiligth";
-    font-size: 47px;
-    color: var(--branco);
-    margin-top: 120px;
-    text-align: center;
-}
+    .titulo-footer h2 {
+        font-size: 20px;
+    }
 
-#localizacao {
-    display: flex;
-    gap: 121px;
-}
+    .icones-redes {
+        height: 65px;
+    }
 
-/* --------localizacao 1-------------- */
-.quadrado1 {
-    margin-top: 120px;
-    height: 426px;
-    width: 259px;
-    background-color: var(--branco);
-    border-radius: 7px;
-    align-items: center;
-}
+    .icone-contato {
+        height: 65px;
+    }
 
-.quadrado1 img {
-    height: 259px;
-    width: 259px;
-    padding: 10px;
-    border-radius: 7%;
-}
-
-.quadrado1 h2 {
-    font-family: "Cocogoose-ligth";
-    font-size: 24px;
-    margin-top: 10px;
-    text-align: center;
-}
-
-.quadrado1 p {
-    font-family: "Cocogoose-ligth";
-    font-size: 13px;
-    margin-top: 10px;
-    text-align: center;
-}
-
-.quadrado1 h3 {
-    font-family: "Cocogoose-semiligth";
-    font-size: 18px;
-   margin-top: 25px;
-    background-color: var(--fundo);
-    text-align: center;
-    height: 30px;
-    width: 8vw;
-}
-
-
-
-
-/* -----------localizacao 2-------------- */
-.quadrado2 {
-    margin-top: 120px;
-    height: 426px;
-    width: 259px;
-    background-color: var(--branco);
-    border-radius: 7px;
-}
-
-.quadrado2 img {
-    height: 259px;
-    width: 259px;
-    padding: 10px;
-    border-radius: 7%;
-}
-
-.quadrado2 h2 {
-    font-family: "Cocogoose-ligth";
-    font-size: 24px;
-    margin-top: 10px;
-    text-align: center;
-}
-
-.quadrado2 p {
-    font-family: "Cocogoose-ligth";
-    font-size: 13px;
-    margin-top: 10px;
-    text-align: center;
-}
-
-.quadrado2  h3 {
-    font-family: "Cocogoose-semiligth";
-    font-size: 18px;
-   margin-top: 25px;
-    background-color: var(--fundo);
-    text-align: center;
-    height: 30px;
-    width: 8vw;
-}
-
-/* ------------localizacao 3----------- */
-
-.quadrado3 {
-    margin-top: 120px;
-    height: 426px;
-    width: 259px;
-    background-color: var(--branco);
-    border-radius: 7px;
-    align-items: center;
-}
-
-.quadrado3 img {
-    height: 259px;
-    width: 259px;
-    padding: 10px;
-    border-radius: 7%;
-}
-
-.quadrado3 h2 {
-    font-family: "Cocogoose-ligth";
-    font-size: 24px;
-    margin-top: 10px;
-    text-align: center;
-}
-
-.quadrado3 p {
-    font-family: "Cocogoose-ligth";
-    font-size: 13px;
-    margin-top: 10px;
-    text-align: center;
-}
-
-.quadrado3 h3 {
-    font-family: "Cocogoose-semiligth";
-    font-size: 18px;
-   margin-top: 25px;
-    background-color: var(--fundo);
-    text-align: center;
-    height: 30px;
-    width: 8vw;
-}
-
-/* -------------localizacao 4----------------- */
-
-.quadrado4 {
-    margin-top: 120px;
-    height: 426px;
-    width: 259px;
-    background-color: var(--branco);
-    border-radius: 7px;
-}
-.quadrado4 img {
-    height: 259px;
-    width: 259px;
-    padding: 10px;
-    border-radius: 7%;
-}
-
-.quadrado4 h2 {
-    font-family: "Cocogoose-ligth";
-    font-size: 24px;
-    margin-top: 10px;
-    text-align: center;
-}
-
-.quadrado4 p {
-    font-family: "Cocogoose-ligth";
-    font-size: 13px;
-    margin-top: 10px;
-    text-align: center;
-}
-
-.quadrado4 h3 {
-    font-family: "Cocogoose-semiligth";
-    font-size: 18px;
-   margin-top: 25px;
-    background-color: var(--fundo);
-    text-align: center;
-    height: 30px;
-    width: 8vw;
-}
-
-/* -------------banner2------------- */
-.banner-menor{
-    margin-top: 120px;
-    background-image: url(./img/Banner\ menor.png);
-
+    .direitos {
+        font-size: 15px;
+    }
 }
